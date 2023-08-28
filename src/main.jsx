@@ -16,7 +16,7 @@ import AddStudent from './components/Teacher/AddStudent';
 import ViewAssigmnet from './components/Student/ViewAssigmnet.jsx';
 import Assignment1 from './components/Student/Assignment1.jsx';
 import Assignment2 from './components/Student/Assignment2.jsx';
-import Assignment3 from './components/Student/assignment3.jsx';
+
 
 
 const routes = createBrowserRouter([
@@ -83,10 +83,6 @@ const routes = createBrowserRouter([
         {
           path: 'Assignment2',
           element: <Assignment2 />,
-        },
-        {
-          path: 'Assignment3',
-          element: <Assignment3 />,
         },
         ],
       },
